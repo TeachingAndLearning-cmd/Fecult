@@ -14,10 +14,10 @@
 Lembra de usar <br> pra quebrar as linhas, <b>,</b> pra colocar em negrito,
 -->
     <body>
-    <div class="w3-bar w3-teal w3-large">
+      <div class="w3-bar w3-teal w3-large">
   <a href="Pagina%20inicial.html" class="w3-bar-item w3-button w3-green"><i class="fa fa-home"></i> Pagina Inicial</a>
    <a href="Usuario.html" title="Usuario" class="w3-bar-item w3-button"><i class="fa fa-user-circle"></i></a>
-  <a href="Sobre%20n%C3%B3s.html" class="w3-bar-item w3-button"><i class="fa fa-info"></i></a>
+  <a href="Sobre%20n%C3%B3s.html" title="Sobre nós" class="w3-bar-item w3-button"><i class="fa fa-info"></i></a>
   <div class="w3-dropdown-hover">
       <button class="w3-button"><i class="fa fa-bell"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -25,46 +25,26 @@ Lembra de usar <br> pra quebrar as linhas, <b>,</b> pra colocar em negrito,
       </div>
           </div>
   <a href="Grupo.html" class="w3-bar-item w3-button w3-border-left w3-right w3-teal">Integrantes do Grupo</a>
-</div>
-        <div class="w3-container w3-content" style="max-width:1700px">  
-        <div class="w3-row">
-        <br>
-        <div class="w3-col m7">
-           <div class="w3-container">
-        <div class="w3-card-4" style="width:50%;">
-    <header class="w3-container w3-teal">
-      <h2>Quem somos nós?</h2>
-    </header>
-               
-        <div class="w3-container">
-      <p>Somos a Teaching and Learning, uma empresa que preocupa-se única e exclusivamente com a educação brasileira, conhecida por ser uma das piores do mundo, no intuito de torná-la mais dinâmica e prática. </p>
-    </div>
-  </div>
-        </div>
-        </div>
-        <div class="w3-col m4">
-        <div class=" w3-round w3-white w3-center">
-        <p> <img src= "Fotos/Adobe_20190919_103158.png" alt="Logo" style="cursor:zoom-in" width="50%" onclick="document.getElementById('modal01').style.display='block'"></p>
-      </div>
-         <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-    <div class="w3-modal-content w3-animate-zoom">
-      <img src= "Fotos/Adobe_20190919_103158.png" style="width:100%">
-    </div>
-  </div>
-        </div>
             </div>
-            <br>
-         <div class="w3-container">
+        <br>
+        <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Quem somos nós</h1>
+      <p>Somos a Teaching and Learning, uma empresa que preocupa-se única e exclusivamente com a educação brasileira, que é conhecida por ser uma das piores do mundo, no intuito de torná-la mais dinâmica e prática.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="Fotos/Adobe_20190919_103158.png" style="width: 60%; cursor: zoom-in" onclick="document.getElementById('modal01').style.display='block'">
+    </div>
+  </div>
+   <br>
+         <div class="w3-container w3-padding-64">
             
-        <h3> Pesquisa realizada na Escola Nossa Senhora Auxiliadora com os alunos do Ensino Médio: </h3>
+        <h2 class="w3-text-teal"> Pesquisa realizada na Escola Nossa Senhora Auxiliadora com os alunos do Ensino Médio: </h2>
         <p1>
                 <img src="Fotos/Captura%20de%20Tela%20(5).png" style="cursor: zoom-in; width:80%" onclick="document.getElementById('modal05').style.display='block'">
             <br>
             <img src="Fotos/Captura%20de%20Tela%20(6).png" style="cursor: zoom-in; width:80%" onclick="document.getElementById('modal06').style.display='block'">
         </p1>
-        </div>
-            
         </div>
         <div id="modal05" class="w3-modal" onclick="this.style.display='none'">
     <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
@@ -76,6 +56,12 @@ Lembra de usar <br> pra quebrar as linhas, <b>,</b> pra colocar em negrito,
     <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
     <div class="w3-modal-content w3-animate-zoom">
       <img src="Fotos/Captura%20de%20Tela%20(6).png" style="width:100%" onclick="document.getElementById('modal06').style.display='none'">
+    </div>
+  </div>
+          <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+    <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom">
+      <img src= "Fotos/Adobe_20190919_103158.png" style="width:100%" onclick="document.getElementById('modal01').style.display='none'">
     </div>
   </div>
     </body>
